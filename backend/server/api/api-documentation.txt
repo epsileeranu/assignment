@@ -1,0 +1,14 @@
+PATH_BASE = http://localhost:6001/api
+
+api
+
+category - PATH_BASE/category-management/
+subcategory - PATH_BASE/subcategory-management/
+user - PATH_BASE/user-management/
+
+
+
+Category Routes-
+PATH_BASE/category-management/categories
+
+Category Object

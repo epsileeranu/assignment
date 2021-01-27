@@ -1,0 +1,13 @@
+.navigation-item{
+  margin: $medium 0;
+  display: block;
+  width: 100%;
+
+  a{
+    color: white;
+    display: block;
+    padding-right: $medium;
+    text-decoration: none;
+    width: 100%;
+  }
+}

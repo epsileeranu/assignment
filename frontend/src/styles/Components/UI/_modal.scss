@@ -1,0 +1,17 @@
+.modal{
+  background: white;
+  border-radius: $xsmall;
+  box-shadow: 0px 15px 20px rgba(transparent, 0.2);
+  padding: $medium;
+  position: fixed;
+  transition: all 0.3s ease-in;
+  z-index: 500;
+}
+
+// @media (min-width: 600px) {
+//   .Modal {
+//       width: 500px;
+//       left: calc(50% - 250px);
+//   }
+// }
+

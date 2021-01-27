@@ -1,0 +1,71 @@
+button{
+  border: none;
+  box-shadow: 0 $xsmall $medium rgba(0,0,0, $alpha: 0.1);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  line-height: 1;
+  margin: $xsmall;
+  outline: none;
+  transition: 0.3s ease-in;
+  text-decoration: none;
+}
+.button{
+  background: $primary;
+  border-radius: $xsmall/2;
+
+  &--small{
+    font-size: $small;
+    padding: $xsmall $small;
+  }
+  &--medium{
+    font-size: $medium;
+    padding: $small $medium;
+  }
+  &--large{
+    font-size: $medium;
+    padding: $medium $large;
+  }
+  &--link{
+    background: none;
+  }
+  &:hover{
+    background: darken($color: $primary, $amount: 3%);
+    box-shadow: 0px 15px 20px rgba($primary, 0.2);
+  }
+  &:disabled{
+    background: $disabled;
+    color: black;
+    cursor: default;
+  }
+}
+
+.button-circle{
+  background: $secondary;
+  border-radius: 50%;
+  text-align: center;
+
+  &--small{
+    padding: $small/1.5 ($small+0.4)/1.5;
+  }
+  &--medium{
+    padding: $large/2.2 ($large+0.4)/2.2;
+  }
+  &--large{
+    padding: $medium $medium+0.3;
+  }
+  &--link{
+    background: none;
+  }
+  &:hover{
+    background: darken($color: $secondary, $amount: 3%);
+    box-shadow: 0px 15px 20px rgba($secondary, 0.2);
+  }
+  &:disabled{
+    background: $disabled;
+    color: black;
+    cursor: default;
+  }
+}
+

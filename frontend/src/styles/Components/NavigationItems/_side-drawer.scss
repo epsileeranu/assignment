@@ -1,0 +1,12 @@
+.side-drawer{
+  position: fixed;
+  width: $large*30;
+  max-width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: white;
+  padding: $medium $small;
+  transition: transform 0.3s ease-in;
+  z-index: 200;
+}

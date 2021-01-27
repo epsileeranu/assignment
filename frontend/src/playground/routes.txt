@@ -1,0 +1,53 @@
+
+------------------user section ----------------
+/ -> user dashboard
+/category -> show all categories
+/category/:id -> show all subcategories
+/category/:id/subcategory/:id -> show all products
+/category/:id/subcategory/:id/product/ -> show single product having id 
+/category/:id/subcategory/:id/product/:id -> show single product having id 
+
+/profile -> show profile
+/profile/edit -> edit profile
+/profile/address -> show/delete all addresses
+/profile/address/edit -> edit address
+/profile/orders -> show all orders
+
+/orders/:id -> show single order extra detail with delivery address
+
+/cart -> show/remove all cart items, show number of items, show address filter, show total price/delivery-charges/payable/saving, after clicking placeorder-> if any item not available show popup -> show image,title,out of stock,cancel,yes,continue button
+
+/checkout -> 
+  1.show login detail -> login,name,email, change button 
+  2.show all delivery addresses, delivery addresses to choose using radio button
+  3.can add new address
+  4.orders summary same as cart component 
+  5.payment options using radio
+  6.pay button 
+
+
+------------------admin section ----------------
+/admin -> admin dashboard
+
+/admin/profile
+/admin/profile/edit 
+
+/admin/category/ -> show all categories
+/admin/category/create -> create new category 
+/admin/category/:id -> show single category info with all subcategories 
+/admin/category/edit/:id/ -> edit category having id 
+/admin/category/edit/:id/subcategory/  
+/admin/category/:id/product/ -> show all products
+
+
+
+------------------util section ----------------
+/contact -> contact us 
+/about -> about us 
+/faq -> ferquently asked questions
+/tac -> terms and conditions
+
+------------------util section ----------------
+not found page
+
+

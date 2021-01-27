@@ -1,0 +1,10 @@
+@import './NavigationItem/NavigationItem';
+
+.navigation-items{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
